@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sam-Boleke</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">
+                <img src="images/logo.PNG" class="logo">
+            </a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/icons8-menu-rounded-24(-mdpi).png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="para">
+            <p>Contact Me on the social Media icons below:</p>
+        </div>
+
+        <div class="skills-container">
+            
+            <!-- Social Media Handles -->
+            <div class="social-media-icons-wrapper">
+                <a href="https://www.instagram.com/sam_boleke23">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/relerheezy.boleke">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/BolekeSam">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://github.com/Sam-Boleke">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <!-- Contact Email Address -->
+            <form action="" method="POST">
+                <input type="text" class="input-field" placeholder="Your Name">
+                <input type="email" class="input-field" placeholder="Your Email">
+                <input type="text" class="input-field" placeholder="Your Subject">
+                <textarea type="text" class="input-field textarea-field" placeholder="Your message"></textarea>
+                <button class="btn">
+                    <span class="button">Send Message</span>
+                    <i class="ri-check-line icon"></i>
+                </button>
+            </form>
+
+        </div>
+    </div>
+    <script>
+
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "130px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+</body>
+<footer>
+    <div class="copyright-wrapper">
+        &copy; 2022 Sam-Boleke &#124; All rights reserved
+    </div>
+</footer>
+
+</html>

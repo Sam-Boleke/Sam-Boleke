@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Sam-Boleke</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">
+                <img src="images/logo.PNG" class="logo">
+            </a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/icons8-menu-rounded-24(-mdpi).png" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Portfolio</h2>
+                <h3>Sam Boleke</h3>
+                <p>Hey! I am Relebohile Samuel Boleke.<br><br>
+                    
+                    A Final Year IT student doing Work Intergrated Learning(WIL).<br><br>
+    
+                    I am a Software Developer, Web developer, Mobile App developer,
+                    and everything code.<br><br>
+
+                    I am seeking a role as a Junior Software/Web Developer where I can utilize my skills and grow as a developer.
+    
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="images/sam-boleke.jpg" class="sam">
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+</body>
+<footer>
+    <div class="copyright-wrapper">
+        &copy; 2022 Sam-Boleke &#124; All rights reserved
+    </div>
+</footer>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Sam-Boleke</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">
+                <img src="images/logo.PNG" class="logo">
+            </a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/icons8-menu-rounded-24(-mdpi).png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="project-content">
+            <div class="col-1">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <h3>Bank UI</h3>
+                    </li>
+                    <p>I have created a bank app User Interface using widgets in flutter.
+                    </p>
+                    <li>
+                        <h3>Weather App</h3>
+                    </li>
+                    <p>I have created a weather app that can access weather conditions for over 200 000 cities in the world using Openweather API.
+                    </p>
+                    <li>
+                        <h3>Zoink App</h3>
+                    </li>
+                    <p>I was also a team leader on the 2021 NEMISA Hackathon/Datathon challenge, I was the lead Software
+                        Developer
+                        where we
+                        developed a mobile app as part of our solution using Flutter.</p>
+                    <li>
+                        <h3>IT Music</h3>
+                    </li>
+                    <p>For our project using ASP.NET MVC, we developed the website for our online store where we sell
+                        music
+                        instruments
+                        where we wrote HTML & CSS which we later intergrated with C# in ASP.NET MVC.
+                    </p>
+                    <li>Some of my projects are available and others will soon be uploaded on my github account:
+                        <b><i><a href="https://github.com/Sam-Boleke">Sam-Boleke</a></i></b></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "130px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+</body>
+<footer>
+    <div class="copyright-wrapper">
+        &copy; 2022 Sam-Boleke &#124; All rights reserved
+    </div>
+</footer>
+
+</html>

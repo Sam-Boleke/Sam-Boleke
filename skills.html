@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Sam-Boleke</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html">
+                <img src="images/logo.PNG" class="logo">
+            </a>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/icons8-menu-rounded-24(-mdpi).png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <section class="skills-container">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/c-sharp.jpg" alt="">
+                    </div>
+                    <h3>C# | .Net Framework | ASP.NET</h3>
+                    <p>I write C# code almost everyday to create full stack Softwares.</p>
+
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/mobile.jpg" alt="">
+                    </div>
+                    <h3>Mobile Apps</h3>
+                    <p>I design cross platform mobile applications using Flutter which is based on Dart languange. From
+                        UI to full stack Apps</p>
+
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/web.jpg" alt="">
+                    </div>
+                    <h3>Web Applications</h3>
+                    <p>I use MVC to develop and design Web Applications, Web Forms and ASP.Net</p>
+
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/website.jpg" alt="">
+                    </div>
+                    <h3>Websites</h3>
+                    <p>I design websites using HTML5, CSS3 and Javascript for static websites</p>
+
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/mobile.jpg" alt="">
+                    </div>
+                    <h3>Extras</h3>
+                    <p>
+                    <ul>
+                        <ul>SQL</ul>
+                        <ul>REST API's</ul>
+                        <ul>Javascript</ul>
+                        <ul>Project Management</ul>
+                    </ul>
+                    </p>
+
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "130px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+</body>
+<footer>
+    <div class="copyright-wrapper">
+        &copy; 2022 Sam-Boleke &#124; All rights reserved
+    </div>
+</footer>
+
+</html>
