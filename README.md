@@ -20,7 +20,7 @@
 ---
 
 ## 📫 Connect with Me  
-- 🌐 Portfolio/Startup: ***www.coderskorner.co.za***
+- 🌐 Portfolio/Startup: ***[www.coderskorner.co.za](https://coderskorner.co.za/)***
 - 💼 LinkedIn: [linkedin.com/in/samboleke](https://www.linkedin.com/in/relebohile-samuel-boleke-58970a1b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
 - ✉️ Email: **samboleke@gmail.com**  
 
